@@ -1,0 +1,34 @@
+
+
+test 3
+maximum number of dice: .
+minimum number of dice: 1.
+number of dice rolls: 1.
+expected result: Wrong arguments count: 2.
+description: Проверка запуска программы c двумя параметрами.
+
+
+test 1
+maximum number of dice: .
+minimum number of dice: .
+number of dice rolls: .
+expected result: Wrong arguments count: 0.
+description: Проверка запуска программы без параметров.
+
+
+test 2
+maximum number of dice: .
+minimum number of dice: .
+number of dice rolls: 1.
+expected result: Wrong arguments count: 1.
+description: Проверка запуска программы c одним параметром.
+
+
+test 4
+maximum number of dice: 1.
+minimum number of dice: 1.
+number of dice rolls: 1.
+expected result: Number of turns: 1
+Minimum number of dices: 1
+Maximum number of dices: 1.
+description: Проверка запуска программы cо всеми параметрами (1, 1, 1).

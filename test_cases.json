@@ -1,0 +1,30 @@
+{
+  "test 1": {
+    "description": "Проверка запуска программы без параметров",
+    "number of dice rolls": "",
+    "minimum number of dice": "",
+    "maximum number of dice": "",
+    "expected result": "Wrong arguments count: 0"
+  },
+  "test 2": {
+    "description": "Проверка запуска программы c одним параметром",
+    "number of dice rolls": "1",
+    "minimum number of dice": "",
+    "maximum number of dice": "",
+    "expected result": "Wrong arguments count: 1"
+  },
+  "test 3": {
+    "description": "Проверка запуска программы c двумя параметрами",
+    "number of dice rolls": "1",
+    "minimum number of dice": "1",
+    "maximum number of dice": "",
+    "expected result": "Wrong arguments count: 2"
+  },
+  "test 4": {
+    "description": "Проверка запуска программы cо всеми параметрами (1, 1, 1)",
+    "number of dice rolls": "1",
+    "minimum number of dice": "1",
+    "maximum number of dice": "1",
+    "expected result": "Number of turns: 1\nMinimum number of dices: 1\nMaximum number of dices: 1"
+  }
+}
